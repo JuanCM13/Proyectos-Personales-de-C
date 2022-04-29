@@ -1,0 +1,105 @@
+15:05:01 **** Incremental Build of configuration Debug for project proyectoVuelosRepaso ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+..\src\Controller.c: In function 'Controller_AddNewFlight':
+..\src\Controller.c:305:37: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+      fscanf(pFlightsCounterFlie , "%d\n",lastFlight);
+                                     ^
+..\src\Controller.c:269:6: warning: unused variable 'indexToEliminate' [-Wunused-variable]
+  int indexToEliminate;
+      ^~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Flights.o" "..\\src\\Flights.c" 
+..\src\Flights.c: In function 'generateNewFlight':
+..\src\Flights.c:470:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Inform.o" "..\\src\\Inform.c" 
+..\src\Inform.c: In function 'InformOptionEleven':
+..\src\Inform.c:210:11: warning: zero-length ms_printf format string [-Wformat-zero-length]
+    printf("");
+           ^~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\proyectoVuelosRepaso.o" "..\\src\\proyectoVuelosRepaso.c" 
+..\src\proyectoVuelosRepaso.c: In function 'main':
+..\src\proyectoVuelosRepaso.c:150:5: error: duplicate case value
+     case 11:
+     ^~~~
+..\src\proyectoVuelosRepaso.c:140:5: error: previously used here
+     case 11:
+     ^~~~
+15:10:14 **** Incremental Build of configuration Debug for project proyectoVuelosRepaso ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nexo.o" "..\\src\\Nexo.c" 
+..\src\Nexo.c: In function 'addNewFlight':
+..\src\Nexo.c:189:16: warning: implicit declaration of function 'generateNewFlight' [-Wimplicit-function-declaration]
+    flightAux = generateNewFlight(idPiloto, flightId);
+                ^~~~~~~~~~~~~~~~~
+..\src\Nexo.c:189:14: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+    flightAux = generateNewFlight(idPiloto, flightId);
+              ^
+..\src\Nexo.c:177:6: warning: unused variable 'planeId' [-Wunused-variable]
+  int planeId;
+      ^~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\proyectoVuelosRepaso.o" "..\\src\\proyectoVuelosRepaso.c" 
+..\src\proyectoVuelosRepaso.c: In function 'main':
+..\src\proyectoVuelosRepaso.c:150:5: error: duplicate case value
+     case 11:
+     ^~~~
+..\src\proyectoVuelosRepaso.c:140:5: error: previously used here
+     case 11:
+     ^~~~
+15:12:21 **** Incremental Build of configuration Debug for project proyectoVuelosRepaso ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Inform.o" "..\\src\\Inform.c" 
+..\src\Inform.c: In function 'InformOptionEleven':
+..\src\Inform.c:210:11: warning: zero-length ms_printf format string [-Wformat-zero-length]
+    printf("");
+           ^~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\proyectoVuelosRepaso.o" "..\\src\\proyectoVuelosRepaso.c" 
+..\src\proyectoVuelosRepaso.c: In function 'main':
+..\src\proyectoVuelosRepaso.c:150:5: error: duplicate case value
+     case 11:
+     ^~~~
+..\src\proyectoVuelosRepaso.c:140:5: error: previously used here
+     case 11:
+     ^~~~
+15:13:04 **** Incremental Build of configuration Debug for project proyectoVuelosRepaso ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pilots.o" "..\\src\\Pilots.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\proyectoVuelosRepaso.o" "..\\src\\proyectoVuelosRepaso.c" 
+..\src\proyectoVuelosRepaso.c: In function 'main':
+..\src\proyectoVuelosRepaso.c:150:5: error: duplicate case value
+     case 11:
+     ^~~~
+..\src\proyectoVuelosRepaso.c:140:5: error: previously used here
+     case 11:
+     ^~~~
+15:13:16 **** Incremental Build of configuration Debug for project proyectoVuelosRepaso ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\proyectoVuelosRepaso.o" "..\\src\\proyectoVuelosRepaso.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parser.o" "..\\src\\Parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Inform.o" "..\\src\\Inform.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Flights.o" "..\\src\\Flights.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nexo.o" "..\\src\\Nexo.c" 
+..\src\Nexo.c: In function 'addNewFlight':
+..\src\Nexo.c:177:6: warning: unused variable 'planeId' [-Wunused-variable]
+  int planeId;
+      ^~~~~~~
+gcc -o proyectoVuelosRepaso.exe "src\\Controller.o" "src\\Flights.o" "src\\Inform.o" "src\\LinkedList.o" "src\\Nexo.o" "src\\Parser.o" "src\\Pilots.o" "src\\input.o" "src\\nombres.o" "src\\proyectoVuelosRepaso.o" 
+15:14:44 **** Incremental Build of configuration Debug for project proyectoVuelosRepaso ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Flights.o" "..\\src\\Flights.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nexo.o" "..\\src\\Nexo.c" 
+gcc -o proyectoVuelosRepaso.exe "src\\Controller.o" "src\\Flights.o" "src\\Inform.o" "src\\LinkedList.o" "src\\Nexo.o" "src\\Parser.o" "src\\Pilots.o" "src\\input.o" "src\\nombres.o" "src\\proyectoVuelosRepaso.o" 
+Info: Nothing to build for proyectoVuelosRepaso
+Info: Nothing to build for proyectoVuelosRepaso
+15:33:50 **** Incremental Build of configuration Debug for project proyectoVuelosRepaso ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Flights.o" "..\\src\\Flights.c" 
+gcc -o proyectoVuelosRepaso.exe "src\\Controller.o" "src\\Flights.o" "src\\Inform.o" "src\\LinkedList.o" "src\\Nexo.o" "src\\Parser.o" "src\\Pilots.o" "src\\input.o" "src\\nombres.o" "src\\proyectoVuelosRepaso.o" 
+15:36:05 **** Incremental Build of configuration Debug for project proyectoVuelosRepaso ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nexo.o" "..\\src\\Nexo.c" 
+gcc -o proyectoVuelosRepaso.exe "src\\Controller.o" "src\\Flights.o" "src\\Inform.o" "src\\LinkedList.o" "src\\Nexo.o" "src\\Parser.o" "src\\Pilots.o" "src\\input.o" "src\\nombres.o" "src\\proyectoVuelosRepaso.o" 
+Info: Nothing to build for proyectoVuelosRepaso

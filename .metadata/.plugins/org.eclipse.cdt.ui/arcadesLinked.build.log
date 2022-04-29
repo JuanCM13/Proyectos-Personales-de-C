@@ -1,0 +1,15 @@
+01:32:44 **** Rebuild of configuration Debug for project arcadesLinked ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nexo.o" "..\\src\\Nexo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arcade.o" "..\\src\\arcade.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arcadesLinked.o" "..\\src\\arcadesLinked.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\soundType.o" "..\\src\\soundType.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controller.o" "..\\src\\controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nombres.o" "..\\src\\nombres.c" 
+gcc -o arcadesLinked.exe "src\\LinkedList.o" "src\\Nexo.o" "src\\arcade.o" "src\\arcadesLinked.o" "src\\controller.o" "src\\input.o" "src\\nombres.o" "src\\parser.o" "src\\soundType.o" 
+
+01:32:52 Build Finished. 0 errors, 0 warnings. (took 8s.313ms)
+

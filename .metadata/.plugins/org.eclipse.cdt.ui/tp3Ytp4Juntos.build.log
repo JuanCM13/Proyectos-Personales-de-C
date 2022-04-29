@@ -1,0 +1,30 @@
+02:06:12 **** Rebuild of configuration Debug for project tp3Ytp4Juntos ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+..\src\Controller.c: In function 'controller_loadFromText':
+..\src\Controller.c:28:143: warning: passing argument 3 of 'Get_cadena' from incompatible pointer type [-Wincompatible-pointer-types]
+   Get_cadena("Ingrese el nombre del archivo donde se almacenan los datos de vuelo..","Error la palabra no puede superar los 200 caracteres..",fileName , STRING_MAX);
+                                                                                                                                               ^~~~~~~~
+In file included from ..\src\Employee.h:8:0,
+                 from ..\src\Controller.c:4:
+..\src\input.h:97:5: note: expected 'char *' but argument is of type 'char **'
+ int Get_cadena(char mensaje[] ,char mensajeError[] , char cadena[] , int rango);
+     ^~~~~~~~~~
+..\src\Controller.c:32:17: warning: passing argument 1 of 'fopen' from incompatible pointer type [-Wincompatible-pointer-types]
+   pFile = fopen(fileName , "r");
+                 ^~~~~~~~
+In file included from ..\src\Controller.c:1:0:
+c:\mingw\include\stdio.h:260:41: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  FILE * fopen (const char *, const char *);
+                                         ^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nombres.o" "..\\src\\nombres.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Employee.o" "..\\src\\Employee.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-LC:\\Users\\caand\\eclipse\\cpp-2021-06\\eclipse\\tp3Ytp4Juntos" -o tp3Ytp4Juntos.exe "src\\Controller.o" "src\\Employee.o" "src\\input.o" "src\\main.o" "src\\nombres.o" "src\\parser.o" -lLinkedList 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot find -lLinkedList
+collect2.exe: error: ld returned 1 exit status
+
+02:06:17 Build Failed. 1 errors, 2 warnings. (took 5s.35ms)
+

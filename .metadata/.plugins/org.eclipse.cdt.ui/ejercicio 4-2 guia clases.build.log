@@ -1,0 +1,29 @@
+02:05:04 **** Rebuild of configuration Debug for project ejercicio 4-2 guia clases ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio 4-4 guia clases.o" "..\\src\\ejercicio 4-4 guia clases.c" 
+..\src\ejercicio 4-4 guia clases.c: In function 'main':
+..\src\ejercicio 4-4 guia clases.c:41:20: warning: implicit declaration of function 'conversorCelsiusAfahrenheit' [-Wimplicit-function-declaration]
+    verificacionC = conversorCelsiusAfahrenheit(&celsiusAfahrenheit , celsius);
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\ejercicio 4-4 guia clases.c:48:2: error: expected ';' before '}' token
+  }
+  ^
+..\src\ejercicio 4-4 guia clases.c:26:6: warning: unused variable 'verificacionF' [-Wunused-variable]
+  int verificacionF;
+      ^~~~~~~~~~~~~
+..\src\ejercicio 4-4 guia clases.c:25:6: warning: variable 'verificacionC' set but not used [-Wunused-but-set-variable]
+  int verificacionC;
+      ^~~~~~~~~~~~~
+..\src\ejercicio 4-4 guia clases.c: In function 'celsiusAfahrenheit':
+..\src\ejercicio 4-4 guia clases.c:98:19: error: invalid operands to binary != (have 'float' and 'void *')
+  if(gradosCelsius != NULL)
+                   ^~
+..\src\ejercicio 4-4 guia clases.c:94:6: warning: variable 'retorno' set but not used [-Wunused-but-set-variable]
+  int retorno;
+      ^~~~~~~
+..\src\ejercicio 4-4 guia clases.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+
+02:05:04 Build Failed. 2 errors, 5 warnings. (took 680ms)
+

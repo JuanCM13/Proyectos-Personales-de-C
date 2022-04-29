@@ -1,0 +1,15 @@
+02:05:43 **** Rebuild of configuration Debug for project parcialLabo2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nombres.o" "..\\src\\nombres.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eEditoriales.o" "..\\src\\eEditoriales.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nexo.o" "..\\src\\nexo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibros.o" "..\\src\\eLibros.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parcialLabo2.o" "..\\src\\parcialLabo2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+gcc -o parcialLabo2.exe "src\\Controller.o" "src\\LinkedList.o" "src\\eEditoriales.o" "src\\eLibros.o" "src\\input.o" "src\\nexo.o" "src\\nombres.o" "src\\parcialLabo2.o" "src\\parser.o" 
+
+02:05:50 Build Finished. 0 errors, 0 warnings. (took 6s.891ms)
+

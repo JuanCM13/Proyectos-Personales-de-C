@@ -1,0 +1,7 @@
+02:04:55 **** Rebuild of configuration Debug for project ejercicio 1-1 clase repaso Sabados ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba2.o" "..\\src\\prueba2.c" 
+gcc -o "ejercicio 1-1 clase repaso Sabados.exe" "src\\prueba2.o" 
+
+02:04:56 Build Finished. 0 errors, 0 warnings. (took 1s.326ms)
+

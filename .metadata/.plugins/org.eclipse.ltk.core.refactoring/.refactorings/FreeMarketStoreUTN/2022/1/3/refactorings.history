@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FreeMarketStoreUTN/src/Users.hç&apos; to &apos;Users.h&apos;" description="Rename resource &apos;Users.hç&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Users.hç" name="Users.h" stamp="1642807343361" updateReferences="true"/>
+</session>

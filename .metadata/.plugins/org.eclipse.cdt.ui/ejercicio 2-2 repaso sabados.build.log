@@ -1,0 +1,14 @@
+02:05:03 **** Rebuild of configuration Debug for project ejercicio 2-2 repaso sabados ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio 2-2 repaso sabados.o" "..\\src\\ejercicio 2-2 repaso sabados.c" 
+..\src\ejercicio 2-2 repaso sabados.c: In function 'main':
+..\src\ejercicio 2-2 repaso sabados.c:105:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+..\src\ejercicio 2-2 repaso sabados.c:87:5: warning: 'utn_getNumero' defined but not used [-Wunused-function]
+ int utn_getNumero (int* numero,char* mensaje)
+     ^~~~~~~~~~~~~
+
+02:05:03 Build Failed. 1 errors, 1 warnings. (took 654ms)
+

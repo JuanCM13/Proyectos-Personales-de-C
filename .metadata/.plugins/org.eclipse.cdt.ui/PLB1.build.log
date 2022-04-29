@@ -1,0 +1,63 @@
+02:04:07 **** Rebuild of configuration Debug for project PLB1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PLB1.o" "..\\src\\PLB1.c" 
+..\src\PLB1.c: In function 'main':
+..\src\PLB1.c:38:11: warning: unused variable 'listaClientes' [-Wunused-variable]
+  eCliente listaClientes[TAMLISTA];
+           ^~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\clientes.o" "..\\src\\clientes.c" 
+..\src\clientes.c: In function 'generarCliente':
+..\src\clientes.c:114:8: warning: implicit declaration of function 'Get_NombreEmpresa' [-Wimplicit-function-declaration]
+     if(Get_NombreEmpresa("Ingrese el nombre de la empresa.." , "El nombre de la empresa no puede ser tan grande.." , auxiliar.nombreCliente , sizeof(auxiliar.nombreCliente)) != 0)
+        ^~~~~~~~~~~~~~~~~
+..\src\clientes.c:120:9: warning: implicit declaration of function 'OrdenarNombre' [-Wimplicit-function-declaration]
+         OrdenarNombre(auxiliar.nombreCliente , sizeof(auxiliar.nombreCliente));
+         ^~~~~~~~~~~~~
+..\src\clientes.c:153:21: error: 'eCliente {aka struct <anonymous>}' has no member named 'id'
+             auxiliar.id = resultadoId;
+                     ^
+..\src\clientes.c: In function 'mostrarClientes':
+..\src\clientes.c:325:73: error: 'eCliente {aka struct <anonymous>}' has no member named 'id'
+                 printf("\n%4d  %15s  %20s   %20s           \n ",lista[i].id ,lista[i].nombreEmpresa, lista[i].direccion,
+                                                                         ^
+..\src\clientes.c:325:86: error: 'eCliente {aka struct <anonymous>}' has no member named 'nombreEmpresa'
+                 printf("\n%4d  %15s  %20s   %20s           \n ",lista[i].id ,lista[i].nombreEmpresa, lista[i].direccion,
+                                                                                      ^
+..\src\clientes.c:325:110: error: 'eCliente {aka struct <anonymous>}' has no member named 'direccion'; did you mean 'direccionCliente'?
+                 printf("\n%4d  %15s  %20s   %20s           \n ",lista[i].id ,lista[i].nombreEmpresa, lista[i].direccion,
+                                                                                                              ^
+..\src\clientes.c:326:79: error: 'eCliente {aka struct <anonymous>}' has no member named 'cuit'
+                                                                       lista[i].cuit);
+                                                                               ^
+..\src\clientes.c: In function 'modificarCliente':
+..\src\clientes.c:356:58: error: 'INT_MIN' undeclared (first use in this function)
+                     campoAmodificar = queCampo(mensaje , INT_MIN , INT_MAX);
+                                                          ^~~~~~~
+..\src\clientes.c:356:58: note: each undeclared identifier is reported only once for each function it appears in
+..\src\clientes.c:356:68: error: 'INT_MAX' undeclared (first use in this function)
+                     campoAmodificar = queCampo(mensaje , INT_MIN , INT_MAX);
+                                                                    ^~~~~~~
+..\src\clientes.c:373:151: error: 'eCliente {aka struct <anonymous>}' has no member named 'direccion'; did you mean 'direccionCliente'?
+                         if(Get_cadena("Ingrese la direccion donde vive...", "Error, la direccion no puede ser tan larga, reingrese..",lista[resultado].direccion, sizeof(lista[resultado].direccion)) != 0)
+                                                                                                                                                       ^
+..\src\clientes.c:373:186: error: 'eCliente {aka struct <anonymous>}' has no member named 'direccion'; did you mean 'direccionCliente'?
+                         if(Get_cadena("Ingrese la direccion donde vive...", "Error, la direccion no puede ser tan larga, reingrese..",lista[resultado].direccion, sizeof(lista[resultado].direccion)) != 0)
+                                                                                                                                                                                          ^
+..\src\clientes.c:379:59: error: 'eCliente {aka struct <anonymous>}' has no member named 'direccion'; did you mean 'direccionCliente'?
+                             OrdenarNombre(lista[resultado].direccion , sizeof(lista[resultado].direccion));
+                                                           ^
+..\src\clientes.c:379:95: error: 'eCliente {aka struct <anonymous>}' has no member named 'direccion'; did you mean 'direccionCliente'?
+                             OrdenarNombre(lista[resultado].direccion , sizeof(lista[resultado].direccion));
+                                                                                               ^
+..\src\clientes.c: In function 'get_id':
+..\src\clientes.c:431:60: error: 'INT_MAX' undeclared (first use in this function)
+         if(Get_numeroConLimites(mensaje , mensajeError, 0 ,INT_MAX , &aux) == 0)
+                                                            ^~~~~~~
+..\src\clientes.c: In function 'encontrarId':
+..\src\clientes.c:454:24: error: 'eCliente {aka struct <anonymous>}' has no member named 'id'
+             if(lista[i].id == idAencontrar)
+                        ^
+
+02:04:09 Build Failed. 13 errors, 3 warnings. (took 1s.937ms)
+

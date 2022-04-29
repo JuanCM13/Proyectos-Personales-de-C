@@ -1,0 +1,15 @@
+02:04:27 **** Rebuild of configuration Debug for project Tp3yTp4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nombres.o" "..\\src\\nombres.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Employee.o" "..\\src\\Employee.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc "-LC:\\Users\\caand\\eclipse\\cpp-2021-06\\eclipse\\Tp3yTp4" -o Tp3yTp4.exe "src\\Controller.o" "src\\Employee.o" "src\\LinkedList.o" "src\\input.o" "src\\main.o" "src\\nombres.o" "src\\parser.o" -lLinkedList 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot find -lLinkedList
+collect2.exe: error: ld returned 1 exit status
+
+02:04:33 Build Failed. 1 errors, 0 warnings. (took 5s.652ms)
+

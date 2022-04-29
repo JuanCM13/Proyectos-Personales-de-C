@@ -1,0 +1,15 @@
+02:24:18 **** Rebuild of configuration Debug for project GestorVuelosUTN ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nombres.o" "..\\src\\nombres.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parser.o" "..\\src\\Parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pilotos.o" "..\\src\\Pilotos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nexo.o" "..\\src\\Nexo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\GestorVuelosUTN.o" "..\\src\\GestorVuelosUTN.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Vuelos.o" "..\\src\\Vuelos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o GestorVuelosUTN.exe "src\\Controller.o" "src\\GestorVuelosUTN.o" "src\\LinkedList.o" "src\\Nexo.o" "src\\Parser.o" "src\\Pilotos.o" "src\\Vuelos.o" "src\\input.o" "src\\nombres.o" 
+
+02:24:27 Build Finished. 0 errors, 0 warnings. (took 9s.189ms)
+

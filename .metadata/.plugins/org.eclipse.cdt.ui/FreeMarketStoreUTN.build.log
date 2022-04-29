@@ -1,0 +1,13 @@
+01:32:06 **** Rebuild of configuration Debug for project FreeMarketStoreUTN ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nombres.o" "..\\src\\nombres.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nexo.o" "..\\src\\Nexo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Users.o" "..\\src\\Users.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FreeMarketStoreUTN.o" "..\\src\\FreeMarketStoreUTN.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Product.o" "..\\src\\Product.c" 
+gcc -o FreeMarketStoreUTN.exe "src\\Controller.o" "src\\FreeMarketStoreUTN.o" "src\\Nexo.o" "src\\Product.o" "src\\Users.o" "src\\input.o" "src\\nombres.o" 
+
+01:32:13 Build Finished. 0 errors, 0 warnings. (took 6s.536ms)
+

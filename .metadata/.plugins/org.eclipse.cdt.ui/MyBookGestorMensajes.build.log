@@ -1,0 +1,16 @@
+01:31:18 **** Rebuild of configuration Debug for project MyBookGestorMensajes ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nexo.o" "..\\src\\Nexo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nombres.o" "..\\src\\nombres.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\User.o" "..\\src\\User.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\controller.o" "..\\src\\controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Post.o" "..\\src\\Post.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listaOrdenada.o" "..\\src\\listaOrdenada.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MyBookGestorMensajes.o" "..\\src\\MyBookGestorMensajes.c" 
+gcc -o MyBookGestorMensajes.exe "src\\LinkedList.o" "src\\MyBookGestorMensajes.o" "src\\Nexo.o" "src\\Post.o" "src\\User.o" "src\\controller.o" "src\\input.o" "src\\listaOrdenada.o" "src\\nombres.o" "src\\parser.o" 
+
+01:31:26 Build Finished. 0 errors, 0 warnings. (took 8s.778ms)
+

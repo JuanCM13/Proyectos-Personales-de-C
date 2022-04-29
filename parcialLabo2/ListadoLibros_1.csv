@@ -1,0 +1,51 @@
+id,titulo,autor,precio,idEditorial
+1,La Biblia,Anonimo,1500,1
+2,Odisea,Homero,1232.14,3
+3,Don Quijote de la Mancha,Cervantes,3230.45,4
+4,Historia de dos ciudades,Charles Dickens,1425.33,6
+5, El principito,Antoine de Saint Exupery,1260.00,2
+6,Diario,Ana Frank,755.50,1
+7,El Senior de los Anillos, Tolkien,4300.25,3
+8,Las aventuras de Alicia en el pais de las maravillas, Lewis Carroll,6300.00,2
+9,Sueno en el pabellon rojo,Cao Xueqin,1250.00,2
+10, Cien anios de soledad,Gabriel Garcia Marquez,3300.55,1
+11,Lolita,Vladimir Nabokov,3300.25,1
+12, El codigo Da Vinci,Dan Brown,945.00,3
+13,El nombre de la rosa,Umberto Eco,2200.00,4
+14, El guardian entre el centeno,Salinger,1100.52,6
+15, Diez negritos,Agatha Christie,400.30,6
+16,Robinson Crusoe,Daniel Defoe,900,00,5
+17,El alquimista,Paulo Coelho,630.00,4
+18, El arte de la guerra,Sun Tzu,9000.00,5
+19,20.000 leguas de viaje submarino,Julio Verne,7100.00,5
+20, La colina de Watership,Richard Adams,600.00,3
+21,Iliada,Homero,1200.12,2
+22,Guerra y paz, Lev Tolstoi,600.20,4
+23,El Coran,Anonimo,120.00,5
+24,El conde de Montecristo,Alexandre Dumas,4200.50,6
+25, Ana de las tejas verdes,Lucy Montgomery,450.25,1
+26,El hobbit,Tolkien,950.00,1
+27,Orgullo y prejuicio, Jane Austen,900.00,3
+28,El mundo de Sofia,Jostein Gaarder,4300.25,5
+29,Matar a un ruisenior,Harper Lee,7800.00,6
+30,Flores en el atico,Andrews,3300.00,4
+31,1984,George Orwell,4000.00,2
+32,Divina comedia,Dante Alighieri,2000.00,5
+33,Dracula,Bram Stoker,1500.25,3
+34, El gran Gatsby,Scott Fitzgerald,4000.15,1
+35,Las aventuras de Huckleberry Finn,Mark Twain,5000.00,6
+36,Una historia de aventuras,Rider Haggard,2000.25,2
+37,Azabache,Anna Sewell,400.00,6
+38,Las aventuras de Pinocho,Carlo Collodi,550.00,4
+39,El perfume,Patrick Suskind,600.00,2
+40,Charlie y la fabrica de chocolate,Roald Dahl,780.22,3
+41,Heidi,Johanna Spyri,199.99,2
+42,La telarania de Carlota,White,600.00,6
+43,Ben Hur,Lewis Wallace,900.00,3
+44,Lo que el viento se llevo,Margaret Mitchell,4500.00,1
+45, Libro rojo,Mao Tse Tung,4900.10,2
+46,Los puentes de Madison County,Robert James Waller,200.00,2
+47,Cometas en el cielo,Khaled Hosseini,900.20,3
+48,Juan Salvador Gaviota,Richard Bach,200.00,3
+49,Frankenstein,Mary Shelley,3000.00,5
+50,Romeo y Julieta,William Shakespeare,4215.23,4

@@ -1,0 +1,14 @@
+01:31:39 **** Rebuild of configuration Debug for project ppl2020veterinaria ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ppl2020veterinaria.o" "..\\src\\ppl2020veterinaria.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Inform.o" "..\\src\\Inform.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pet.o" "..\\src\\pet.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nombres.o" "..\\src\\nombres.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nexo.o" "..\\src\\Nexo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Locality.o" "..\\src\\Locality.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\owner.o" "..\\src\\owner.c" 
+gcc -o ppl2020veterinaria.exe "src\\Inform.o" "src\\Locality.o" "src\\Nexo.o" "src\\input.o" "src\\nombres.o" "src\\owner.o" "src\\pet.o" "src\\ppl2020veterinaria.o" 
+
+01:31:46 Build Finished. 0 errors, 0 warnings. (took 7s.868ms)
+

@@ -1,0 +1,11 @@
+02:06:09 **** Rebuild of configuration Debug for project primerProyectoEclipse ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primerProyectoEclipse.o" "..\\src\\primerProyectoEclipse.c" 
+..\src\primerProyectoEclipse.c: In function 'main':
+..\src\primerProyectoEclipse.c:21:8: warning: unused variable 'pepe' [-Wunused-variable]
+  float pepe;
+        ^~~~
+gcc -o primerProyectoEclipse.exe "src\\primerProyectoEclipse.o" 
+
+02:06:11 Build Finished. 0 errors, 1 warnings. (took 1s.348ms)
+

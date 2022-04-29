@@ -1,0 +1,31 @@
+02:04:22 **** Rebuild of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nombres.o" "..\\src\\nombres.c" 
+..\src\nombres.c: In function 'Get_NombreOapellido':
+..\src\nombres.c:10:10: warning: unused variable 'seguir' [-Wunused-variable]
+     char seguir;
+          ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\informes.o" "..\\src\\informes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployees.o" "..\\src\\ArrayEmployees.c" 
+..\src\ArrayEmployees.c: In function 'loadEmployee':
+..\src\ArrayEmployees.c:71:9: warning: unused variable 'idContador' [-Wunused-variable]
+     int idContador;
+         ^~~~~~~~~~
+..\src\ArrayEmployees.c: In function 'sortEmployees':
+..\src\ArrayEmployees.c:298:9: warning: unused variable 'auxSector' [-Wunused-variable]
+     int auxSector;
+         ^~~~~~~~~
+..\src\ArrayEmployees.c: In function 'ModifyEmployee':
+..\src\ArrayEmployees.c:369:9: warning: unused variable 'i' [-Wunused-variable]
+     int i;
+         ^
+..\src\ArrayEmployees.c: In function 'SalarysStatus':
+..\src\ArrayEmployees.c:607:9: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+     int ret;
+         ^~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -o TP_2.exe "src\\ArrayEmployees.o" "src\\TP_2.o" "src\\informes.o" "src\\input.o" "src\\nombres.o" 
+
+02:04:27 Build Finished. 0 errors, 5 warnings. (took 4s.732ms)
+

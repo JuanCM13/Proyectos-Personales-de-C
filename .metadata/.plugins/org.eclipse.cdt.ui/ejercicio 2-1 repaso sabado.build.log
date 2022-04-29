@@ -1,0 +1,9 @@
+02:05:01 **** Rebuild of configuration Debug for project ejercicio 2-1 repaso sabado ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio 2-1 repaso sabado.o" "..\\src\\ejercicio 2-1 repaso sabado.c" 
+gcc -o "ejercicio 2-1 repaso sabado.exe" "src\\ejercicio 2-1 repaso sabado.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+
+02:05:03 Build Failed. 1 errors, 0 warnings. (took 1s.269ms)
+

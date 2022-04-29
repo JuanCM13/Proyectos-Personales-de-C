@@ -1,0 +1,16 @@
+01:32:20 **** Rebuild of configuration Debug for project logFailure ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FilesManage.o" "..\\src\\FilesManage.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nexo.o" "..\\src\\Nexo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\logFailure.o" "..\\src\\logFailure.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logs.o" "..\\src\\Logs.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Services.o" "..\\src\\Services.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nombres.o" "..\\src\\nombres.c" 
+gcc -o logFailure.exe "src\\Controller.o" "src\\FilesManage.o" "src\\LinkedList.o" "src\\Logs.o" "src\\Nexo.o" "src\\Services.o" "src\\input.o" "src\\logFailure.o" "src\\nombres.o" "src\\parser.o" 
+
+01:32:29 Build Finished. 0 errors, 0 warnings. (took 8s.951ms)
+

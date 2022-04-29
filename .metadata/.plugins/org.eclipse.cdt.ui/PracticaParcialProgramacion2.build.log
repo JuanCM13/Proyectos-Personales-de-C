@@ -1,0 +1,24 @@
+02:04:15 **** Rebuild of configuration Debug for project PracticaParcialProgramacion2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ePendrive.o" "..\\src\\ePendrive.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PracticaParcialProgramacion2.o" "..\\src\\PracticaParcialProgramacion2.c" 
+..\src\PracticaParcialProgramacion2.c:70:29: error: unknown type name 'ePendrive'
+ int guardarEnArchivoBinario(ePendrive* pendrive , char* path)
+                             ^~~~~~~~~
+..\src\PracticaParcialProgramacion2.c: In function 'leerDesdeArchivo':
+..\src\PracticaParcialProgramacion2.c:101:2: error: unknown type name 'ePendrive'
+  ePendrive* auxiliarPendrive;
+  ^~~~~~~~~
+..\src\PracticaParcialProgramacion2.c:117:24: warning: implicit declaration of function 'new_pendrive' [-Wimplicit-function-declaration]
+     auxiliarPendrive = new_pendrive();
+                        ^~~~~~~~~~~~
+..\src\PracticaParcialProgramacion2.c:117:22: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     auxiliarPendrive = new_pendrive();
+                      ^
+..\src\PracticaParcialProgramacion2.c:121:38: error: 'ePendrive' undeclared (first use in this function)
+      fread(auxiliarPendrive , sizeof(ePendrive) , 1 , aux);
+                                      ^~~~~~~~~
+..\src\PracticaParcialProgramacion2.c:121:38: note: each undeclared identifier is reported only once for each function it appears in
+
+02:04:16 Build Failed. 3 errors, 2 warnings. (took 1s.111ms)
+

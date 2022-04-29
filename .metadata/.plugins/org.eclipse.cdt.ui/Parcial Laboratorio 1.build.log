@@ -1,0 +1,71 @@
+02:04:09 **** Rebuild of configuration Debug for project Parcial Laboratorio 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cliente.o" "..\\src\\cliente.c" 
+..\src\cliente.c: In function 'ingresarCuit':
+..\src\cliente.c:292:13: warning: implicit declaration of function '__fpurge' [-Wimplicit-function-declaration]
+             __fpurge (stdin);
+             ^~~~~~~~
+..\src\cliente.c: In function 'modificarCliente':
+..\src\cliente.c:386:33: warning: statement with no effect [-Wunused-value]
+                             ret -1;
+                             ~~~~^~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nombres.o" "..\\src\\nombres.c" 
+..\src\nombres.c: In function 'Get_NombreEmpresa':
+..\src\nombres.c:11:10: warning: unused variable 'seguir' [-Wunused-variable]
+     char seguir;
+          ^~~~~~
+..\src\nombres.c: In function 'Get_string':
+..\src\nombres.c:59:9: warning: implicit declaration of function '__fpurge' [-Wimplicit-function-declaration]
+         __fpurge (stdin);
+         ^~~~~~~~
+..\src\nombres.c: In function 'sonLetras':
+..\src\nombres.c:115:58: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+          if ( /*cadena[0] == 32 || */ !(cadena[i] >= 'a' && cadena[i] <= 'z' || cadena[i] == 32))
+                                         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+..\src\input.c: In function 'Get_numeroConLimites':
+..\src\input.c:23:13: warning: implicit declaration of function '__fpurge' [-Wimplicit-function-declaration]
+             __fpurge(stdin);
+             ^~~~~~~~
+..\src\input.c: In function 'esFloat':
+..\src\input.c:105:87: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+             if(cadena[i] == '.'  || !(cadena[i] >= '0' && cadena[i] <= '9') || i == 0 && cadena[0] == '-')
+                                                                                ~~~~~~~^~~~~~~~~~~~~~~~~~~
+..\src\input.c:107:27: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+                 if(i == 0 && cadena[0] == '-' ||contadorPunto == 0)
+                    ~~~~~~~^~~~~~~~~~~~~~~~~~~
+..\src\input.c: In function 'esNumero':
+..\src\input.c:140:61: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+             if(cadena[i] < '0' || cadena[i] > '9' || i == 0 && cadena[0] == '-')
+                                                      ~~~~~~~^~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ePedidos.o" "..\\src\\ePedidos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nexo.o" "..\\src\\nexo.c" 
+..\src\nexo.c: In function 'bajaCliente':
+..\src\nexo.c:47:9: warning: unused variable 'indexIdPedidoRelacion' [-Wunused-variable]
+     int indexIdPedidoRelacion;
+         ^~~~~~~~~~~~~~~~~~~~~
+..\src\nexo.c: In function 'pedidosPendientesPorLocalidad':
+..\src\nexo.c:198:9: warning: unused variable 'index' [-Wunused-variable]
+     int index;
+         ^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parcial Laboratorio 1.o" "..\\src\\Parcial Laboratorio 1.c" 
+..\src\Parcial Laboratorio 1.c: In function 'main':
+..\src\Parcial Laboratorio 1.c:58:9: warning: variable 'idPedido' set but not used [-Wunused-but-set-variable]
+     int idPedido;
+         ^~~~~~~~
+gcc -o "Parcial Laboratorio 1.exe" "src\\Parcial Laboratorio 1.o" "src\\cliente.o" "src\\ePedidos.o" "src\\input.o" "src\\nexo.o" "src\\nombres.o" 
+src\cliente.o: In function `ingresarCuit':
+C:\Users\caand\eclipse\cpp-2021-06\eclipse\Parcial Laboratorio 1\Debug/../src/cliente.c:292: undefined reference to `__fpurge'
+src\input.o: In function `Get_numeroConLimites':
+C:\Users\caand\eclipse\cpp-2021-06\eclipse\Parcial Laboratorio 1\Debug/../src/input.c:23: undefined reference to `__fpurge'
+src\input.o: In function `Get_floatConLimites':
+C:\Users\caand\eclipse\cpp-2021-06\eclipse\Parcial Laboratorio 1\Debug/../src/input.c:64: undefined reference to `__fpurge'
+src\input.o: In function `QueresSeguir':
+C:\Users\caand\eclipse\cpp-2021-06\eclipse\Parcial Laboratorio 1\Debug/../src/input.c:170: undefined reference to `__fpurge'
+src\input.o: In function `Get_cadena':
+C:\Users\caand\eclipse\cpp-2021-06\eclipse\Parcial Laboratorio 1\Debug/../src/input.c:217: undefined reference to `__fpurge'
+src\nombres.o:C:\Users\caand\eclipse\cpp-2021-06\eclipse\Parcial Laboratorio 1\Debug/../src/nombres.c:59: more undefined references to `__fpurge' follow
+collect2.exe: error: ld returned 1 exit status
+
+02:04:15 Build Failed. 6 errors, 12 warnings. (took 5s.348ms)
+

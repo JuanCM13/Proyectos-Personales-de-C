@@ -1,0 +1,59 @@
+02:06:03 **** Rebuild of configuration Debug for project practicaParcialLabo2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nombres.o" "..\\src\\nombres.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\practicaParcialLabo2.o" "..\\src\\practicaParcialLabo2.c" 
+..\src\practicaParcialLabo2.c: In function 'main':
+..\src\practicaParcialLabo2.c:17:2: warning: implicit declaration of function 'setBuff' [-Wimplicit-function-declaration]
+  setBuff(stdout , NULL);
+  ^~~~~~~
+..\src\practicaParcialLabo2.c:33:5: warning: implicit declaration of function 'controller_loadPilotsFile' [-Wimplicit-function-declaration]
+     controller_loadPilotsFile(pLinkedList);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\practicaParcialLabo2.c:19:6: warning: unused variable 'respuestaCaseUno' [-Wunused-variable]
+  int respuestaCaseUno;
+      ^~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+..\src\Controller.c:3:0: warning: "MAXSTRING" redefined
+ #define MAXSTRING 250
+ 
+In file included from ..\src\Controller.h:11:0,
+                 from ..\src\Controller.c:1:
+..\src\input.h:15:0: note: this is the location of the previous definition
+ #define MAXSTRING 150
+ 
+..\src\Controller.c: In function 'controller_loadPilotsFile':
+..\src\Controller.c:17:129: warning: passing argument 3 of 'Get_cadena' from incompatible pointer type [-Wincompatible-pointer-types]
+   Get_cadena("Ingrese el nombre del archivo de donde cargaremos la lista de vuelos..","Error el nombre no puede ser tan largo", archivo , MAXSTRING);
+                                                                                                                                 ^~~~~~~
+In file included from ..\src\Controller.h:11:0,
+                 from ..\src\Controller.c:1:
+..\src\input.h:97:5: note: expected 'char *' but argument is of type 'char **'
+ int Get_cadena(char mensaje[] ,char mensajeError[] , char cadena[] , int rango);
+     ^~~~~~~~~~
+..\src\Controller.c:19:23: warning: passing argument 1 of 'fopen' from incompatible pointer type [-Wincompatible-pointer-types]
+   punteroFile = fopen(archivo , "r");
+                       ^~~~~~~
+In file included from ..\src\input.h:7:0,
+                 from ..\src\Controller.h:11,
+                 from ..\src\Controller.c:1:
+c:\mingw\include\stdio.h:260:41: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  FILE * fopen (const char *, const char *);
+                                         ^~~~~
+..\src\Controller.c:25:7: warning: implicit declaration of function 'parser_flightFromText' [-Wimplicit-function-declaration]
+    if(parser_flightFromText(punteroFile , listaVuelos) == 0)
+       ^~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\vuelos.o" "..\\src\\vuelos.c" 
+..\src\vuelos.c: In function 'flightNewParameters':
+..\src\vuelos.c:44:8: warning: implicit declaration of function 'sonLetras' [-Wimplicit-function-declaration]
+        sonLetras(destino, sizeof(destino)) == 0  )
+        ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+gcc -o practicaParcialLabo2.exe "src\\Controller.o" "src\\LinkedList.o" "src\\input.o" "src\\nombres.o" "src\\parser.o" "src\\practicaParcialLabo2.o" "src\\vuelos.o" 
+src\practicaParcialLabo2.o: In function `main':
+C:\Users\caand\eclipse\cpp-2021-06\eclipse\practicaParcialLabo2\Debug/../src/practicaParcialLabo2.c:17: undefined reference to `setBuff'
+collect2.exe: error: ld returned 1 exit status
+
+02:06:09 Build Failed. 1 errors, 8 warnings. (took 5s.854ms)
+

@@ -1,0 +1,15 @@
+02:05:05 **** Rebuild of configuration Debug for project ejercicio 8-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio 8-1.o" "..\\src\\ejercicio 8-1.c" 
+..\src\ejercicio 8-1.c: In function 'cargar_datos':
+..\src\ejercicio 8-1.c:53:5: warning: implicit declaration of function 'get_promedio' [-Wimplicit-function-declaration]
+  if(get_promedio(jugador->promedioGoles, jugador->cantidadGoles , jugador->cantidadPartidos) != 0)
+     ^~~~~~~~~~~~
+..\src\ejercicio 8-1.c: In function 'funcion_mostrarEstructura':
+..\src\ejercicio 8-1.c:110:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "ejercicio 8-1.exe" "src\\ejercicio 8-1.o" 
+
+02:05:06 Build Finished. 0 errors, 2 warnings. (took 1s.502ms)
+

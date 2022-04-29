@@ -1,0 +1,13 @@
+01:31:54 **** Rebuild of configuration Debug for project Trabajo3juntoCon4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Employee.o" "..\\src\\Employee.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nombres.o" "..\\src\\nombres.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+gcc -o Trabajo3juntoCon4.exe "src\\Controller.o" "src\\Employee.o" "src\\LinkedList.o" "src\\input.o" "src\\main.o" "src\\nombres.o" "src\\parser.o" 
+
+01:32:00 Build Finished. 0 errors, 0 warnings. (took 6s.84ms)
+

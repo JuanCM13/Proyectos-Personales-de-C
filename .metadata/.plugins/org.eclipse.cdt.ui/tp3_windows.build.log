@@ -1,0 +1,12 @@
+02:06:18 **** Rebuild of configuration Debug for project tp3_windows ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o input.o "..\\input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Employee.o "..\\Employee.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o nombres.o "..\\nombres.c" 
+gcc "-LC:\\Users\\caand\\eclipse\\cpp-2021-06\\eclipse\\tp3_windows" -o tp3_windows.exe Controller.o Employee.o input.o main.o nombres.o parser.o -lLinkedList 
+
+02:06:25 Build Finished. 0 errors, 0 warnings. (took 7s.308ms)
+

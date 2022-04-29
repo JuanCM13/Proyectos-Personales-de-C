@@ -1,0 +1,7 @@
+02:04:47 **** Rebuild of configuration Debug for project calculadora beta ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculadora beta.o" "..\\src\\calculadora beta.c" 
+gcc -o "calculadora beta.exe" "src\\calculadora beta.o" 
+
+02:04:48 Build Finished. 0 errors, 0 warnings. (took 1s.338ms)
+

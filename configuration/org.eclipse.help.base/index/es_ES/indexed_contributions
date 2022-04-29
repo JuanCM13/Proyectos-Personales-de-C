@@ -1,0 +1,35 @@
+#This is a generated file; do not edit.
+#Thu Dec 02 20:26:17 ART 2021
+org.eclipse.cdt=org.eclipse.cdt\n10.3.0.202104042017
+org.eclipse.help=org.eclipse.help\n3.9.0.v20210507-0822
+org.eclipse.linuxtools.gcov.docs=org.eclipse.linuxtools.gcov.docs\n1.0.0.202106080017
+org.eclipse.oomph.p2.doc=org.eclipse.oomph.p2.doc\n1.11.0.v20200624-1156
+org.eclipse.tracecompass.doc.dev=org.eclipse.tracecompass.doc.dev\n7.0.0.202106092151
+org.eclipse.cdt.autotools.docs=org.eclipse.cdt.autotools.docs\n2.0.800.202104121328
+org.eclipse.epp.mpc.ui=org.eclipse.epp.mpc.ui\n1.9.1.v20210204-1408
+org.eclipse.platform.doc.user=org.eclipse.platform.doc.user\n4.20.0.v20210530-2150
+org.eclipse.linuxtools.rpm.ui.editor.doc=org.eclipse.linuxtools.rpm.ui.editor.doc\n1.0.0.202106080017
+org.eclipse.linuxtools.changelog.doc=org.eclipse.linuxtools.changelog.doc\n2.7.1.202106080017
+org.eclipse.mylyn.wikitext.help.ui=org.eclipse.mylyn.wikitext.help.ui\n3.0.38.202008172112
+org.eclipse.linuxtools.valgrind.doc=org.eclipse.linuxtools.valgrind.doc\n1.0.0.202106080017
+org.eclipse.cdt.debug.application.doc=org.eclipse.cdt.debug.application.doc\n1.1.900.202104121328
+org.eclipse.linuxtools.cdt.libhover.glibc=org.eclipse.linuxtools.cdt.libhover.glibc\n1.2.1.202106080017
+org.eclipse.ui.intro=org.eclipse.ui.intro\n3.6.200.v20210409-1747
+org.eclipse.cdt.cmake.is.core.doc=org.eclipse.cdt.cmake.is.core.doc\n1.0.100.202011271905
+org.eclipse.epp.mpc.help.ui=org.eclipse.epp.mpc.help.ui\n1.9.1.v20210204-1408
+org.eclipse.help.base=org.eclipse.help.base\n4.3.300.v20210611-1600
+org.eclipse.remote.doc.isv=org.eclipse.remote.doc.isv\n1.0.0.201909031456
+org.eclipse.tracecompass.gdbtrace.doc.user=org.eclipse.tracecompass.gdbtrace.doc.user\n7.0.0.202106092151
+org.eclipse.cdt.launch.remote=org.eclipse.cdt.launch.remote\n2.6.100.202104042017
+org.eclipse.cdt.doc.user=org.eclipse.cdt.doc.user\n5.4.800.202104030733
+org.eclipse.cdt.meson.docs=org.eclipse.cdt.meson.docs\n1.0.800.202104121328
+org.eclipse.linuxtools.cdt.libhover.library.docs=org.eclipse.linuxtools.cdt.libhover.library.docs\n1.0.2.202106080017
+org.eclipse.linuxtools.gprof.docs=org.eclipse.linuxtools.gprof.docs\n1.0.0.202106080017
+org.eclipse.oomph.setup.doc=org.eclipse.oomph.setup.doc\n1.11.0.v20200624-1156
+org.eclipse.ui.cheatsheets=org.eclipse.ui.cheatsheets\n3.7.300.v20210507-0822
+org.eclipse.platform=org.eclipse.platform\n4.20.0.v20210611-1600
+org.eclipse.egit.doc=org.eclipse.egit.doc\n5.12.0.202106070339-r
+org.eclipse.linuxtools.cdt.libhover.devhelp=org.eclipse.linuxtools.cdt.libhover.devhelp\n1.1.0.202106080017
+org.eclipse.linuxtools.profiling.docs=org.eclipse.linuxtools.profiling.docs\n1.0.0.202106080017
+org.eclipse.tracecompass.doc.user=org.eclipse.tracecompass.doc.user\n7.0.0.202106092151
+org.eclipse.ui.intro.universal=org.eclipse.ui.intro.universal\n3.4.200.v20210409-1747

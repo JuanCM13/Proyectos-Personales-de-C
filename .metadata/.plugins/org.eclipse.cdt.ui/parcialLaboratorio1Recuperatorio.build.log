@@ -1,0 +1,13 @@
+02:05:51 **** Rebuild of configuration Debug for project parcialLaboratorio1Recuperatorio ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ePedidos.o" "..\\src\\ePedidos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nombres.o" "..\\src\\nombres.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLocalidad.o" "..\\src\\eLocalidad.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nexo.o" "..\\src\\nexo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\clientes.o" "..\\src\\clientes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parcialLaboratorio1Recuperatorio.o" "..\\src\\parcialLaboratorio1Recuperatorio.c" 
+gcc -o parcialLaboratorio1Recuperatorio.exe "src\\clientes.o" "src\\eLocalidad.o" "src\\ePedidos.o" "src\\input.o" "src\\nexo.o" "src\\nombres.o" "src\\parcialLaboratorio1Recuperatorio.o" 
+
+02:05:56 Build Finished. 0 errors, 0 warnings. (took 5s.433ms)
+

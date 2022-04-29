@@ -1,0 +1,20 @@
+02:06:11 **** Rebuild of configuration Debug for project prueba ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba.o" "..\\src\\prueba.c" 
+..\src\prueba.c: In function 'main':
+..\src\prueba.c:35:11: warning: statement with no effect [-Wunused-value]
+  respuesta==('s');
+  ~~~~~~~~~^~~~~~~
+..\src\prueba.c:59:40: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  printf("El promedio de positivos es: %d \n el promedio de negativos es: %d\n");
+                                        ^
+..\src\prueba.c:59:75: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  printf("El promedio de positivos es: %d \n el promedio de negativos es: %d\n");
+                                                                           ^
+..\src\prueba.c:39:3: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   printf("Ingresa un numero: --LLevas ingresados %d numeros\n",i);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o prueba.exe "src\\prueba.o" 
+
+02:06:12 Build Finished. 0 errors, 4 warnings. (took 1s.288ms)
+
